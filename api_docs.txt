@@ -1,0 +1,112 @@
+1️⃣ What is an API?
+
+API = Application Programming Interface
+
+👉 Simple meaning:
+An API is a messenger that allows two applications to talk to each other.
+
+Real Life Example 🍽️
+
+You go to a restaurant.
+
+You give order to the waiter.
+
+Waiter gives order to kitchen.
+
+Kitchen prepares food.
+
+Waiter brings food back.
+
+👉 Here:
+
+You = Client
+
+Kitchen = Server
+
+Waiter = API
+
+API takes your request → sends to server → returns response.
+
+2️⃣ Types of APIs (Based on Access)
+1️⃣ Open API (Public API)
+
+Available for everyone
+
+Example:
+
+Twitter API
+
+Google Maps API
+
+2️⃣ Internal API (Private API)
+
+Used inside a company
+
+Example:
+
+Company internal HR system API
+
+3️⃣ Partner API
+
+Shared with business partners only
+
+Requires authentication
+
+4️⃣ Composite API
+
+Combines multiple APIs in one request
+
+Example:
+
+One request returns user data + order data + payment data
+
+3️⃣ Types of API Architectures
+
+This is VERY important for FastAPI 🚀
+
+🔹 1. REST API (Most Popular)
+
+REST = Representational State Transfer
+
+Uses HTTP methods:
+
+GET → Fetch data
+
+POST → Create data
+
+PUT → Update data
+
+DELETE → Remove data
+
+Example:
+
+GET /users
+POST /users
+GET /users/1
+DELETE /users/1
+
+👉 FastAPI is mainly used to build REST APIs
+
+🔹 2. SOAP API
+
+XML based
+
+Very strict
+
+Used in banking systems
+
+🔹 3. GraphQL
+
+Client decides what data to fetch
+
+Created by Meta Platforms (Facebook)
+
+🔹 4. WebSocket API
+
+Real-time communication
+
+Example:
+
+Chat apps
+
+Live trading apps

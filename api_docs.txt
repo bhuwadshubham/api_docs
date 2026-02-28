@@ -110,3 +110,5 @@ Example:
 Chat apps
 
 Live trading apps
+
+4️⃣ What is FastAPI?
